@@ -7,9 +7,11 @@
 登录 Linux VPS 以后将下面的V2ray 一键安装脚本代码复制，在登录窗口鼠标右键>粘贴：
 注意:ctrl+v 粘贴命令在xshell里面是没用的
 > #bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+
+
 安装安裝最新發行的 geoip.dat 和 geosite.dat
 > // 只更新 .dat 資料檔
-> # bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh)
+> #bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh)
 
 ![请添加图片描述](https://img-blog.csdnimg.cn/1d41c105311d49c1b326689609ba7e17.png)
 如果提示curl：command not found，那是因为你的VPS没装Curl
